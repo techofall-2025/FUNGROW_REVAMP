@@ -1,14 +1,6 @@
 {
-  "version": 2,
-  "framework": "nextjs",
-  "regions": ["bom1"],
-  "cleanUrls": true,
-  "trailingSlash": false,
-  "redirects": [
-    {
-      "source": "/www/:path*",
-      "destination": "https://funngro.com/:path*",
-      "permanent": true
-    }
-  ]
+  "framework":"vite",
+  "buildCommand" :"npm run build",
+  "outputDirectory": "dist",
+  "installCommand" : "npm install"
 }
